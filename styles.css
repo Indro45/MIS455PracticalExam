@@ -35,9 +35,32 @@ header {
     padding: 15px 0;
 }
 main img {
-    width: 200px;
+    width: 300px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+footer {
+    background-color: #e1bebe;
+    color: black;
+    text-align: center;
+    padding: 8px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.displayflex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 120px);
+    padding: 20px;
+}
+
+.gridfiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
 }
